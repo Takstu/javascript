@@ -6,7 +6,7 @@
 #corpo{
     margin: 10px;
     border: 2px black solid;
-    width: 400px;
+    width: 500px;
     height: 100%;
     display: grid;
     justify-content: center;
@@ -29,6 +29,12 @@
 
 #carrinho{
     display: grid;
-    grid-template-columns: auto 50px;
+    grid-template-columns: auto 50px 20px 100px;
     justify-content: center;
+    box-sizing: border-box;
+}
+
+.itemCarrinho{
+    margin-top: 10px;
+    text-align: center;
 }
